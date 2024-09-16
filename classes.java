@@ -44,6 +44,13 @@ class Cart {
     double totalPrice;
 
     public void addToCart(Product product) {}
-    // TODO: remove from cart/update quantity and whatnot? 
+    //removefromcart and update quantity added
+    public void removeFromCart(Product product) {}
+    public void updateQuantity(Product product , int quantity ) {}
     public void checkout(ExternalAPIService pay) {}
+
+    // Added Total price and clear cart
+    public void calculateTotalPrice() {}
+    public void clearCart() {}
+
 }
